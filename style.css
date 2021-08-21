@@ -1,0 +1,21 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+.nav-bar {
+    float: right;
+}
+
+.footer1 {
+    float: left;
+}
+
+.footer2 {
+    float: right;
+}
