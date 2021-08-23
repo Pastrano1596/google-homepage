@@ -5,15 +5,49 @@ ul {
     overflow: hidden;
 }
 
+.google-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    margin-top: 50px;
+
+}
+#search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#buscar {
+    margin: 15px;
+}
+
+#suerte {
+    margin: 15px;
+}
+
+
 li {
     display: inline;
 }
 
 .nav-bar {
-    float: right;
     display: flex;
-    justify-content: space-between;
-    padding: 8px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 13px;
 }
 
 .footer1 {
