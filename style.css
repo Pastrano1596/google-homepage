@@ -2,6 +2,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 li {
@@ -10,12 +11,19 @@ li {
 
 .nav-bar {
     float: right;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
 }
 
 .footer1 {
-    float: left;
-}
-
-.footer2 {
-    float: right;
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    background-color: #f2f2f2;
 }
